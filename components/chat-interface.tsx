@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { MessageInput } from "./message-input";
 import { MessageList } from "./message-list";
 
@@ -8,6 +8,7 @@ export interface Message {
   id: string;
   text: string;
   sender: "user" | "other";
+  userId?: string;
   timestamp: Date;
 }
 
@@ -17,6 +18,7 @@ export function ChatInterface() {
       id: "1",
       text: "Hey! How are you doing?",
       sender: "other",
+      userId: "Anonymous 617888",
       timestamp: new Date(Date.now() - 3600000),
     },
     {
@@ -29,9 +31,17 @@ export function ChatInterface() {
       id: "3",
       text: "What are you working on today?",
       sender: "other",
+      userId: "Anonymous 617888",
       timestamp: new Date(Date.now() - 2400000),
     },
   ]);
+
+  const [userId, setUserId] = useState<string>("");
+
+  useEffect(() => {
+    // Generate random user id after component mounts to avoid hydration mismatch
+    setUserId(Math.floor(100000 + Math.random() * 900000).toString());
+  }, []);
 
   const handleSendMessage = (text: string) => {
     const newMessage: Message = {
@@ -51,7 +61,9 @@ export function ChatInterface() {
             <span className="text-sm font-medium">A</span>
           </div>
           <div className="flex flex-col">
-            <h1 className="text-sm font-medium text-foreground">Anonymous</h1>
+            <h1 className="text-sm font-medium text-foreground">
+              {userId ? `Anonymous ${userId}` : "Anonymous"}
+            </h1>
             <p className="text-xs text-muted-foreground">Online</p>
           </div>
         </div>
