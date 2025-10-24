@@ -18,7 +18,7 @@ export function ChatInterface() {
       id: "1",
       text: "Hey! How are you doing?",
       sender: "other",
-      userId: "Anonymous 617888",
+      userId: "617888",
       timestamp: new Date(Date.now() - 3600000),
     },
     {
@@ -31,7 +31,7 @@ export function ChatInterface() {
       id: "3",
       text: "What are you working on today?",
       sender: "other",
-      userId: "Anonymous 617888",
+      userId: "617888",
       timestamp: new Date(Date.now() - 2400000),
     },
   ]);

@@ -26,7 +26,7 @@ export function MessageBubble({ message }: MessageBubbleProps) {
       >
         {!isUser && message.userId && (
           <span className="text-xs font-medium text-muted-foreground">
-            {message.userId}
+            {"Anonymous " + message.userId}
           </span>
         )}
         <div
