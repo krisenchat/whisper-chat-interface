@@ -1,6 +1,6 @@
 # Whisper - Anonymous Chatting
 
-A modern, minimalistic, anonymous real-time chat interface built for demonstration purposes.
+A modern, minimalist, anonymous real-time chat interface built for demonstration purposes.
 
 ## Technology Stack
 
