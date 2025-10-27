@@ -39,7 +39,7 @@ export function ChatInterface() {
   const [userId, setUserId] = useState<string>("");
 
   useEffect(() => {
-    // Generate random user id after component mounts to avoid hydration mismatch
+    // Generate random user id on the client after component mounts to avoid hydration mismatch
     setUserId(Math.floor(100000 + Math.random() * 900000).toString());
   }, []);
 
