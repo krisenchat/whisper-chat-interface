@@ -75,10 +75,10 @@ Transform this into a persistent chat where multiple browser windows (on localho
 ### Exercise 3: No Coding! Real-Time Communication Technologies 🌐
 
 **The Discussion:**
-Real-time communication is crucial for modern chat applications. Let's explore the technology landscape together!
+Real-time communication is crucial for modern chat applications. Right now you have to refresh to see new messages which is apparently not the best UX.
 
 **Your Task:**
-Discuss various technologies and approaches for implementing real-time features. Consider their strengths, weaknesses, and when you might choose one over another.
+Please compare differect strategies/technologies for implementing real-time chat communication for Whisper. Consider their strengths, weaknesses, and when you might choose one over another.
 
 **Topics to Explore:**
 
@@ -88,6 +88,7 @@ Discuss various technologies and approaches for implementing real-time features.
 - Performance implications
 - Implementation complexity
 - Cost and infrastructure requirements
+- Security & Privacy
 
 **No Coding Required:** This is all about technical discussion and architectural thinking!
 
