@@ -21,7 +21,7 @@ A modern, minimalist, anonymous real-time chat interface built for demonstration
 1. Clone the repository:
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/krisenchat/whisper-chat-interface.git
    cd demo-chat-interface
    ```
 
