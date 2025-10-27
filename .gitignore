@@ -7,6 +7,9 @@
 /.next/
 /out/
 
+# local env files
+.env*.local
+
 # production
 /build
 
@@ -16,12 +19,42 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# env files
-.env*
-
 # vercel
 .vercel
 
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# yarn (since you're using yarn 4.x)
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Testing and coverage
+coverage/
+.nyc_output
+.jest/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
