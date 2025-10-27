@@ -55,7 +55,7 @@ export function ChatInterface() {
 
   return (
     <div className="flex h-full w-full flex-col bg-background">
-      <header className="flex items-center border-b border-border px-4 py-3">
+      <header className="flex items-center justify-between border-b border-border px-4 py-3">
         <div className="flex items-center gap-3">
           <div className="flex h-10 w-10 items-center justify-center rounded-full bg-primary text-primary-foreground">
             <span className="text-sm font-medium">A</span>
@@ -66,6 +66,9 @@ export function ChatInterface() {
             </h1>
             <p className="text-xs text-muted-foreground">Online</p>
           </div>
+        </div>
+        <div className="flex items-center">
+          <h2 className="text-lg font-semibold text-foreground">Whisper</h2>
         </div>
       </header>
 

@@ -1,4 +1,4 @@
-# Demo Chat Interface
+# Whisper - Anonymous Chatting
 
 A modern, minimalistic, anonymous real-time chat interface built for demonstration purposes.
 
