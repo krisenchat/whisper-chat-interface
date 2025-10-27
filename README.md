@@ -65,9 +65,14 @@ Right now, the chat resets every time the page is refreshed, and users can't com
 **Your Mission:**
 Transform this into a persistent chat where multiple browser windows (on localhost) can communicate with each other. Data should reside on the server.
 
+**Bonus:**
+
+- How to make sure the message body does not exceed 500 characters?
+- No coding: Can users impersonate as other users in your solution? How could one prevent that in the future? Do you see other privacy/security issues?
+
 ---
 
-### Exercise 3: Real-Time Communication Technologies 🌐
+### Exercise 3: No Coding! Real-Time Communication Technologies 🌐
 
 **The Discussion:**
 Real-time communication is crucial for modern chat applications. Let's explore the technology landscape together!
