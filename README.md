@@ -7,7 +7,7 @@ A modern, minimalist, anonymous real-time chat interface built for demonstration
 - **Framework**: Next.js 15 App Router with React 19
 - **Language**: TypeScript
 - **Styling**: Tailwind CSS
-- **UI Components**: ShadCN
+- **UI Components**: [shadcn](https://ui.shadcn.com/)
 - **Package Manager**: Yarn 4
 
 ## Getting Started
@@ -18,7 +18,7 @@ A modern, minimalist, anonymous real-time chat interface built for demonstration
 
 ### Installation
 
-1. Clone the repository:
+1. Clone or fork the repository:
 
    ```bash
    git clone https://github.com/krisenchat/whisper-chat-interface.git
